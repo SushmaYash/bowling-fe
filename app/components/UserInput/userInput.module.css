@@ -1,0 +1,35 @@
+
+.formContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+}
+
+.inputBox {
+    border: 1px solid maroon;
+    border-radius: 10px;
+    padding: 10px;
+    margin-right: 10px;
+    outline: maroon;
+}
+
+.inputBox:focus {
+    border-color: maroon;
+}
+
+.roundButton {
+    background-color: maroon;
+    color: white;
+    border: none;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+
+.roundButton:hover {
+    background-color: blue;
+}
